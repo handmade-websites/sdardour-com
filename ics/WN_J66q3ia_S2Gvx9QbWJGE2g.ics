@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IRENA//Webinar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:24-7-renewables-20260908@irena
+DTSTAMP:20260831T145800Z
+DTSTART;TZID=Europe/Berlin:20260908T140000
+DTEND;TZID=Europe/Berlin:20260908T150000
+SUMMARY:24/7 Renewables: The Economics of Firm Solar and Wind
+DESCRIPTION:IRENA webinar presenting the key findings of the new report “
+ 24/7 Renewables: The Economics of Firm Solar and Wind” and discussing im
+ plications for utilities, investors, industrial buyers and policy makers. 
+ Featured speaker: Saied Dardour, Programme Officer, IRENA Innovation and T
+ echnology Centre.\n\nRegister: https://irena-org.zoom.us/webinar/register/
+ WN_J66q3ia_S2Gvx9QbWJGE2g
+LOCATION:Online webinar
+URL:https://irena-org.zoom.us/webinar/register/WN_J66q3ia_S2Gvx9QbWJGE2g
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
